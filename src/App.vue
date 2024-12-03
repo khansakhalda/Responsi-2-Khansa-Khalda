@@ -1,4 +1,3 @@
-<!-- modifikasi src/App.vue -->
 <template>
   <ion-app>
     <ion-router-outlet></ion-router-outlet>
@@ -14,6 +13,7 @@ import TabsMenu from '@/components/TabsMenu.vue';
 
 const route = useRoute();
 
+// Halaman tanpa TabsMenu
 const authRoutes = ['/', '/login'];
 
 const showTabs = computed(() => {

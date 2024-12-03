@@ -6,12 +6,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // Konfigurasi Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyC25sU1tA0VLgUA2ksr_hBp7bkNCY2JQ28",
-  authDomain: "vue-firebase-f2358.firebaseapp.com",
-  projectId: "vue-firebase-f2358",
-  storageBucket: "vue-firebase-f2358.firebasestorage.app",
-  messagingSenderId: "741001870155",
-  appId: "1:741001870155:web:d70f1be4cd5be3ff6886ce",
+  apiKey: "AIzaSyAUhGtgI4ivNKRgmTpsBPhDBrrPiHrQX00",
+  authDomain: "vue-firebaseresponsi.firebaseapp.com",
+  projectId: "vue-firebaseresponsi",
+  storageBucket: "vue-firebaseresponsi.firebasestorage.app",
+  messagingSenderId: "471109481949",
+  appId: "1:471109481949:web:1ad11da19ac39751a83234"
 };
 
 const firebase = initializeApp(firebaseConfig);
